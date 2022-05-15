@@ -2,7 +2,7 @@ const Discord = require("discord.js")
 const axios = require("axios")
 const fs = require("fs");
 const schedule = require("node-schedule")
-require("dotenv").config()
+require("dotenv").config()   
 
 const client = new Discord.Client({
   intents: [
